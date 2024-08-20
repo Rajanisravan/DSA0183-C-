@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cmath>
+int main(){
+	double number,squareroot;
+	std::cout<<"enter the number:";
+	std::cin>>number;
+	if(number>=0){
+		squareroot=sqrt(number);
+		std::cout<<"square root of"<<number<<"is"<<squareroot<<std::endl;
+	}
+	else{
+		std::cout<<"error or negative number"<<std::endl;
+	}
+	return 0;
+} 
