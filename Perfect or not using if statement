@@ -1,0 +1,16 @@
+#include <iostream>
+int main() {
+    int num = 28; 
+    int sum = 0;
+    if (num % 1 == 0) sum += 1;
+    if (num % 2 == 0) sum += 2;
+    if (num % 4 == 0) sum += 4;
+    if (num % 7 == 0) sum += 7;
+    if (num % 14 == 0) sum += 14;
+    if (sum == num) {
+        std::cout << num << " is a perfect number." << std::endl;
+    } else {
+        std::cout << num << " is not a perfect number." << std::endl;
+    }
+    return 0;
+}
